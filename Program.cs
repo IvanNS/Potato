@@ -16,9 +16,22 @@ namespace ConsoleApplication1
                 {
                     Console.WriteLine(i);
                     //This is the master branch
+
                 }
-             
+            }
+                Console.WriteLine("Enter name: ");
+                if(Console.ReadLine().ToUpper() == "Filip".ToUpper())
+                {
+                    Console.WriteLine("You need a helicopter");
+                }
+               if(Console.ReadLine().ToUpper() == "Ivan".ToUpper())
+               {
+                   Console.WriteLine("Cool dude,I respect him");
+               }
+               if (Console.ReadLine().ToUpper() == "Lukas".ToUpper())
+               {
+                   Console.WriteLine("Good at poker and programming");
+               }
             }
         }
     }
-}
