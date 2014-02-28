@@ -24,14 +24,18 @@ namespace ConsoleApplication1
                 {
                     Console.WriteLine("You need a helicopter");
                 }
-               if(Console.ReadLine().ToUpper() == "Ivan".ToUpper())
+            if (Console.ReadLine().ToUpper() == "Ivan".ToUpper())
                {
-                   Console.WriteLine("Cool dude,I respect him");
+                        Console.WriteLine("Cool dude,I respect him");
                }
-               if (Console.ReadLine().ToUpper() == "Lukas".ToUpper())
-               {
-                   Console.WriteLine("Good at poker and programming");
-               }
-            }
-        }
-    }
+                    
+                        if (Console.ReadLine().ToUpper() == "Lukas".ToUpper())
+                        {
+                            Console.WriteLine("Good at poker and programming");
+                        }
+
+                    }
+                }
+               
+               
+          }
